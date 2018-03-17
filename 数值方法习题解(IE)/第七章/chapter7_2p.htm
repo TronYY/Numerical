@@ -1,0 +1,306 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<script language="JavaScript">
+
+</script>
+</head>
+<script language=javascript>
+function show(id)
+	{
+		document.all(id).style.display='block'
+	}
+function hide(id)
+	{
+		document.all(id).style.display='none'
+	}	
+</script>
+<body bgcolor="#FFFFFF" text="#000000">
+
+<!------------------------------------------>
+
+
+<table width="80%" border="1">
+  <tr>
+    <td>
+      <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-GB" style="font-size:14.0pt;mso-bidi-font-size:10.0pt;mso-ansi-language:EN-GB">&nbsp;<o:p>
+      </o:p>
+      </span></b></p>
+      <p class="MsoNormal" style="margin-left:18.0pt;text-indent:-18.0pt;mso-list:l0 level1 lfo2;
+tab-stops:list 18.0pt"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:16.0pt;mso-bidi-font-size:10.0pt">1.<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;  
+      </span></span></b><b style="mso-bidi-font-weight:normal"><span style="font-size:14.0pt;mso-bidi-font-size:
+10.0pt;font-family:宋体;mso-ascii-font-family:&quot;Times New Roman&quot;;mso-hansi-font-family:
+&quot;Times New Roman&quot;">观测物体直线运动，试利用正交多项式求其运动方程</span></b><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><o:p>
+      </o:p>
+      </span></b></p>
+      <p class="MsoNormal" style="text-indent:36.05pt;mso-char-indent-count:3.0;
+mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-text-raise:-13.0pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1025" type="#_x0000_t75" style='width:84.75pt;
+ height:35.25pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/03/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+      <img src="chapter7_2p.files/chapte26.gif" v:shapes="_x0000_i1025" width="113" height="47"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1199203180">
+ </o:OLEObject>
+</xml><![endif]-->
+      <span style="mso-spacerun: yes">&nbsp;</span></span></b><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt">&nbsp;<o:p> 
+      </o:p>
+      </span></b></p>
+      <table border="1" cellspacing="0" cellpadding="0" style="margin-left:5.4pt;
+ border-collapse:collapse;border:none;mso-border-alt:solid windowtext .5pt;
+ mso-padding-alt:0cm 5.4pt 0cm 5.4pt">
+        <tr style="height:31.0pt">
+          <td width="48" valign="top" style="width:36.0pt;border:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:31.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun: yes">&nbsp;</span>t<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:31.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun: yes">&nbsp;</span>0<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:31.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp; </span>0.9<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:31.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp; </span>1.9<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:31.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt">3.0<o:p>
+            </o:p>
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:31.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt">3.9<o:p>
+            </o:p>
+            </span></b></p>
+          </td>
+          <td width="72" valign="top" style="width:54.0pt;border:solid windowtext .5pt;
+  border-left:none;mso-border-left-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:31.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt">5.0<o:p>
+            </o:p>
+            </span></b></p>
+          </td>
+        </tr>
+        <tr style="height:30.0pt">
+          <td width="48" valign="top" style="width:36.0pt;border:solid windowtext .5pt;
+  border-top:none;mso-border-top-alt:solid windowtext .5pt;padding:0cm 5.4pt 0cm 5.4pt;
+  height:30.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun: yes">&nbsp;</span>s<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt">
+            <p class="MsoNormal" style="text-indent:12.0pt;mso-char-indent-count:1.0;
+  mso-char-indent-size:12.0pt"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun: yes">&nbsp;</span>0<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp;</span>10<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp;</span>30<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp;</span>50<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="60" valign="top" style="width:45.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp;</span>80<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+          <td width="72" valign="top" style="width:54.0pt;border-top:none;border-left:none;
+  border-bottom:solid windowtext .5pt;border-right:solid windowtext .5pt;
+  mso-border-top-alt:solid windowtext .5pt;mso-border-left-alt:solid windowtext .5pt;
+  padding:0cm 5.4pt 0cm 5.4pt;height:30.0pt">
+            <p class="MsoNormal"><b style="mso-bidi-font-weight:normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-spacerun:
+  yes">&nbsp;</span>110<o:p>
+            </o:p> 
+            </span></b></p>
+          </td>
+        </tr>
+      </table>
+      <p class="MsoNormal" align="left" style="text-align:left">
+      <br>
+      <a onclick=javascript:show("answer1")><font size="4" color="#0000FF">答案：</font></a></td>
+  </tr>
+</table>
+<div id="answer1" style="width: 80%; height: 250; z-index: 1; overflow: hidden; display: none; visibility: visible; border: 1px solid #000000"> 
+   <table width="100%" border="0" cellspacing="2" cellpadding="0" bgcolor="#D6D3CE" style="border-bottom: 1px solid #000000" height="17">
+    <tr>
+      <td align="right"><a title="close the window" href=javascript:hide("answer1");><img src="../images/close_w.jpg" border=0 width=15 height=15></a></td>
+    </tr>
+  </table>
+   
+  <div id="Layer1" style="width: 100%; height:100%; overflow: auto; z-index: 2; visibility: visible; "> 
+    <p class="MsoNormal" align="left" style="text-align:left"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:14.0pt;mso-bidi-font-size:10.0pt">&nbsp;<o:p>
+    </o:p> 
+    </span></b></p>
+    <p class="MsoNormal" align="left" style="text-align:left"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-text-raise:-60.0pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_i1027" type="#_x0000_t75" style='width:269.25pt;
+ height:126.75pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/03/clip_image001.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+    <img src="chapter7_2p.files/chapte27.gif" v:shapes="_x0000_i1027" width="359" height="169"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1027"
+  DrawAspect="Content" ObjectID="_1199203266">
+ </o:OLEObject>
+</xml><![endif]-->
+    <o:p> 
+    </o:p> 
+    </span></b></p>
+    <p class="MsoNormal" align="left" style="text-align:left"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-text-raise:-38.0pt"><!--[if gte vml 1]><v:shape id="_x0000_i1025"
+ type="#_x0000_t75" style='width:201.75pt;height:83.25pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/03/clip_image003.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+    <img src="chapter7_2p.files/chapte28.gif" v:shapes="_x0000_i1025" width="269" height="111"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1025"
+  DrawAspect="Content" ObjectID="_1199203268">
+ </o:OLEObject>
+</xml><![endif]-->
+    <o:p> 
+    </o:p> 
+    </span></b></p>
+    <p class="MsoNormal" align="left" style="text-align:left"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-text-raise:-38.0pt"><!--[if gte vml 1]><v:shape id="_x0000_i1026"
+ type="#_x0000_t75" style='width:180.75pt;height:83.25pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/03/clip_image005.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+    <img src="chapter7_2p.files/chapte29.gif" v:shapes="_x0000_i1026" width="241" height="111"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1026"
+  DrawAspect="Content" ObjectID="_1199203269">
+ </o:OLEObject>
+</xml><![endif]-->
+    <o:p> 
+    </o:p> 
+    </span></b></p>
+    <p class="MsoNormal" align="left" style="text-align:left"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt"><span style="mso-text-raise:-27.0pt"><!--[if gte vml 1]><v:shape id="_x0000_i1028"
+ type="#_x0000_t75" style='width:336.75pt;height:84.75pt' o:ole="">
+ <v:imagedata src="file:///C:/DOCUME~1/ADMINI~1/LOCALS~1/Temp/msoclip1/03/clip_image007.wmz"
+  o:title=""/>
+</v:shape><![endif]-->
+    <img src="chapter7_2p.files/chapte30.gif" v:shapes="_x0000_i1028" width="449" height="113"></span><!--[if gte mso 9]><xml> 
+ <o:OLEObject Type="Embed" ProgID="Equation.3" ShapeID="_x0000_i1028"
+  DrawAspect="Content" ObjectID="_1199203270">
+ </o:OLEObject>
+</xml><![endif]-->
+    <o:p> 
+    </o:p> 
+    </span></b></p>
+    <p class="MsoNormal" align="left" style="text-align:left"><b style="mso-bidi-font-weight:
+normal"><span lang="EN-US" style="font-size:12.0pt;mso-bidi-font-size:10.0pt">&nbsp;<o:p>
+    </o:p>
+    </span></b>
+  </div>
+</div>
+
+
+
+
+
+<!--------------------------------------->
+
+
+</body>
+</html>
